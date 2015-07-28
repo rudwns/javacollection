@@ -78,7 +78,7 @@ public class Grade {
 	@Override
 		public String toString() {
 			
-			return "성적표 [이름 : "+name+", 학번 : "+hakbun+"]\n"
+			return "성적표 이름 : "+name+", 학번 : "+hakbun+"\n"
 					+ "국어 : "+kor+" , 영어 : "+eng+" , 수학 : "+math+"\n"
 					+ "총합 : "+getTotal(kor,eng,math)+"\n";
 		}
